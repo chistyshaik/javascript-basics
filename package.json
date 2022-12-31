@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "javascript-basics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chistyshaik/javascript-basics.git"
+  },
+  "author": "chisty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chistyshaik/javascript-basics/issues"
+  },
+  "homepage": "https://github.com/chistyshaik/javascript-basics#readme",
+  "description": ""
+}
