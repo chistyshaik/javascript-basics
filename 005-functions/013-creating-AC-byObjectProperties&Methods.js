@@ -55,7 +55,7 @@ AC.increaseTemp();
 AC.increaseTemp();
 
 
-AC.offTheAC(); // returns isRunning = false
+//AC.offTheAC(); // returns isRunning = false
 
 AC.ACinfo();
 
