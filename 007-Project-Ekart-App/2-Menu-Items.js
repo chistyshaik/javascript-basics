@@ -17,7 +17,7 @@ let kidsWear = [
 let accessories =   [
     'ear-phones    =  500/-   ',
     'wallets       =  900/-   ',
-    'shoes']
+    'shoes         =  800/-']
 let Groceries = [
     'rice          =   50/-  ',
     'pulses        =  100/-  ',
@@ -36,16 +36,19 @@ let homeDecor = [
         'homD': homeDecor
     }
 
-   export function showShopItems(Category) {
-        const shopItems = categories[Category]
-        if (shopItems){
-            const userSelectedCategoryIndex = readline.keyInSelect(shopItems)
-            const userSelectedCategory = shopItems[userSelectedCategoryIndex]
-            return userSelectedCategory
-        }else{
-            ThrowError();
-        }
-    }
+//    export function showShopItems(Category) {
+//         const shopItems = categories[Category]
+//         if (shopItems){
+//             const userSelectedCategoryIndex = readline.keyInSelect(shopItems)
+//             const userSelectedCategory = shopItems[userSelectedCategoryIndex]
+//             return userSelectedCategory
+//         }else{
+//             ThrowError();
+//         }
+//     }
 
-    showShopItems()
+    // showShopItems()
+
+
+    
     
