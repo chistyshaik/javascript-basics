@@ -1,0 +1,21 @@
+Local System (pc related)
+  -> 0.0.0.0
+  -> 127.0.0.1
+  -> localhost
+
+
+Server 
+  -> 8.8.8.8(ip address of google)
+  -> google.com
+
+
+Connected to Internet System 
+(Act)   -> 
+(BSNL)  ->
+(Airtel)->  
+
+
+ip address is like a phone number to a website 
+we can check our ip adress simply by typing my ip adress in google
+
+Dynamic / Static IP
