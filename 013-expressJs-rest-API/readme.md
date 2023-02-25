@@ -127,5 +127,5 @@ app.get('/', (request, response) => {
     app.delete(USER_ENDPOINT , function (request , response) {
         const userID = request.params.ID;
         response.json({success : true,id : userID, method :  post});
-    });
+    }); 
 ```
