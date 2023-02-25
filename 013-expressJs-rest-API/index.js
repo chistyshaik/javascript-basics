@@ -91,7 +91,7 @@ app.delete(`${USER_ENDPOINT}:/id`, (req , res) => {
 
 // res.json({
 //   status: true,
-//   id: userID,
+//   id : userID,
 //   index: userIdx,
 //   method: "delete"
 // });
