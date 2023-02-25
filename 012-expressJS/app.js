@@ -3,9 +3,15 @@
 
 const express = require("express");
 
-const app = express();
 
 const fs = require("fs"); //fs stands for file system
+
+const bodyParser = require("body-parser"); //body-parser ia sn external middleware for parsing data in express
+
+const app = express();
+
+//define the above app to use bodyparser middleware's json parse in next step
+app.use(bodyParser.json());  
 
 app.get('/', (req, res) => {
     res.send("Express app is running....") //we wrote response.end in previous http project but in express js response.send is a method of getting response
@@ -60,7 +66,23 @@ app.get('/products/:productID', (req , res)=>{
     res.json(product);
     }
 
-})
+});
+
+
+app.post('/categories', (req , res) => {
+    const categoryName = 'CategoryName' + categories.length;
+    categories.push(categoryName);
+
+    console.log('checking for request body')
+    console.log(req.body)
+
+    res.send({success : true, newCategory : categoryName })
+});
+
+/* 
+Express body-parser is an npm module used to process data sent in an HTTP request body. It provides four express middleware for parsing JSON, Text, URL-encoded, and raw data sets over an HTTP request body. Before the target controller receives an incoming request, these middleware routines handle it.
+*/
+
 
 app.listen(3000 , (request , response ) => {
     console.log('server is running on http://localhost:3000')

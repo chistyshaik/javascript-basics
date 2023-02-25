@@ -1,0 +1,16 @@
+basically, we request data to server through a browser's url , the interface which provides these requests is called API's,
+
+there are so many API methods in which REST API is one important api 
+
+REST API stands for 
+
+REST - Respresentational State Transfer 
+API -  Application programming interface
+
+There are 5 main Methods in Rest API's  They are :-
+
+1. GET
+2. POST
+3. PUT
+4. PATCH
+5. DELETE
